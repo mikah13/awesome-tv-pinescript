@@ -1,6 +1,8 @@
 // This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © Amphibiantrading
 
+// HOW TO USE: https://www.tradingview.com/script/DU228Vjm-Flag-Finder/
+
 //@version=5
 indicator("Flag Finder", overlay = true, max_lines_count = 500)
 
