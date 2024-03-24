@@ -1,0 +1,15 @@
+//@version=4
+study(title="EMA 8/21, SMA 50/200", overlay=true)
+
+shortest = ema(close, 8)
+short = ema(close, 21)
+
+
+longer = sma(close, 50)
+longest = sma(close, 200)
+
+plot(shortest, "EMA8", #3fe3fe)
+plot(short, "EMA21", #eb9642)
+plot(longer, "SMA50", #ed24d2)
+plot(longest, "SMA200", #2724ed)
+
